@@ -41,6 +41,10 @@
         left: 8px;
         top: 6px;
         height: 240px;
+        border: 1px dotted rgb(255, 255, 255);
+        border-image-source: none;
+        background-image: none;
+        background-color: rgba(96, 26, 169, 0.74902);
       }
       .gwd-span-q9f4 {
         font-family: Lobster;
@@ -61,6 +65,31 @@
       }
       .gwd-span-hagg {
         font-family:'Trebuchet MS';
+      }
+      @-webkit-keyframes gwd-gen-o3sogwdanimation_animation {
+        0% {
+          -webkit-animation-timing-function: linear;
+          background-color: rgba(132, 17, 36, 0.439216);
+        }
+        100% {
+          -webkit-animation-timing-function: linear;
+          background-color: rgba(132, 233, 191, 0.439216);
+        }
+        75.6098% {
+          -webkit-animation-timing-function: linear;
+          background-color: rgb(132, 17, 36);
+        }
+        26.8293% {
+          -webkit-animation-timing-function: linear;
+          background-color: rgba(96, 26, 169, 0.74902);
+        }
+        51.2195% {
+          -webkit-animation-timing-function: linear;
+          background-color: rgba(132, 245, 36, 0.439216);
+        }
+      }
+      .gwd-gen-4z8h .gwd-gen-o3sogwdanimation {
+        -webkit-animation: gwd-gen-o3sogwdanimation_animation 4.1s linear 0s 1 forwards;
       }
     </style>
     <script type="text/x-serialization" id="gwd-serialization">
@@ -87,9 +116,17 @@
             "decorates": true,
             "properties": {
               "width": "300px",
-              "height": "250px"
+              "height": "250px",
+              "introAnimationSequence": "@intropage1"
             },
             "children": []
+          },
+          "intropage1": {
+            "type": "rad.animation.CSSAnimation",
+            "properties": {
+              "cssClass": "gwd-gen-4z8h",
+              "elementCount": 1
+            }
           }
         }
       }
@@ -101,15 +138,18 @@
     <div class="gwd-page-container">
       <div id="page1" class="gwd-page-wrapper gwd-page-size" data-gwd-component-id="page1">
         <div class="gwd-page-content gwd-page-size">
-          <div class="gwd-div-ubna">
-            <h1><span class="gwd-span-q9f4">Google Web Designer's Tool</span></h1>
-            <div><span class="gwd-span-ru7i"><span class="gwd-span-hagg">Welcome to the Google Web Designer's Tool and we are learning how to style our text element with CSS, create fixed or automatically-sized text elements, and design beautifully with Google fonts.</span>
+          <div class="gwd-div-ubna gwd-gen-bbblgwdanimation gwd-gen-45kwgwdanimation gwd-gen-o3sogwdanimation">
+             <h1 class=""><span class="gwd-span-q9f4">Google Web Designer's Tool</span></h1>
+
+            <div class=""><span class="gwd-span-ru7i"><span class="gwd-span-hagg">Welcome to the Google Web Designer's Tool and we are learning how to style our text element with CSS, create fixed or automatically-sized text elements, and design beautifully with Google fonts.</span>
+
               <br>
               </span>
             </div>
-            <div><span class="gwd-span-bxwd"><br></span>
+            <div class=""><span class="gwd-span-bxwd"><br></span>
+
             </div>
-            <div>
+            <div class="">
               <a href="http://www.google.com" class="gwd-a-1sbm">Click Here</a>
             </div>
           </div>
